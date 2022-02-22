@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.colculator{
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px black;
+    font-size: 0;
+}
+.colculator:hover{
+    box-shadow: 0 16px 32px black;
+}
+.colc-head input{
+    width: 330px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 5px;
+}
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: rgba(255, 255, 255, 0.842);
+}
+.btn-color{
+    background-color: rgba(100, 148, 237, 0.904);
+}
+.btn:hover{
+    box-shadow: 0 0 16px red;
+}
